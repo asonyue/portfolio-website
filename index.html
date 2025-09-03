@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ason Yue - Website</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Ason Yue</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link" data-en="Home" data-zh="首頁">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link" data-en="Experience" data-zh="工作經驗">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link" data-en="Skills" data-zh="技能">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link" data-en="Education" data-zh="教育">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link" data-en="Projects" data-zh="專案">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-en="Contact" data-zh="聯絡">Contact</a>
+                </li>
+            </ul>
+            <div class="language-switcher">
+                <button id="langToggle" class="lang-btn">
+                    <span class="lang-text">中文</span>
+                    <i class="fas fa-globe"></i>
+                </button>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-en="Hi, I'm Ason Yue" data-zh="你好，我是余俊熙">Hi, I'm Ason Yue</h1>
+                <p class="hero-subtitle" data-en="Quality Assurance Engineer" data-zh="品質保證工程師">Quality Assurance Engineer</p>
+
+                <blockquote class="hero-quote" data-en="A Quality Assurance Engineer is a bridge between the developer and the customer - Ason Yue" data-zh="品質保證工程師是開發者與客戶之間的橋樑 - 茹俊熙">"A Quality Assurance Engineer is a bridge between the developer and the customer" - Ason Yue</blockquote>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary" data-en="View My Work" data-zh="查看我的作品">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary" data-en="Get In Touch" data-zh="聯絡我">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-avatar">
+                    <img src="images/PersonalPhoto (1).JPG" alt="Ason Yue - Quality Assurance Engineer" class="profile-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title" data-en="Work Experience" data-zh="工作經驗">Work Experience</h2>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-content">
+                        <div class="company-header">
+                            <img src="images/hytech_logo.webp" alt="Hytech Taipei Logo" class="company-logo">
+                            <div class="company-info">
+                                <div class="job-header">
+                                    <h3 class="job-title" data-en="Quality Assurance Engineer" data-zh="品質保證工程師">Quality Assurance Engineer</h3>
+                                    <span class="date-range" data-en="August 2025 - Present" data-zh="2025年8月 - 現任">August 2025 - Present</span>
+                                </div>
+                                <h4 class="company-name">Hytech Taipei <span class="employment-type" data-en="Full Time" data-zh="全職">Full Time</span></h4>
+                            </div>
+                        </div>
+                        <ul class="job-description">
+                            <li data-en="Conduct comprehensive regression testing to validate newly implemented product features" data-zh="執行全面的回歸測試以驗證新實施的產品功能">Conduct comprehensive regression testing to validate newly implemented product features</li>
+                            <li data-en="Perform cross-platform testing across web and mobile devices to ensure consistent functionality" data-zh="執行跨平台測試，涵蓋網頁和行動裝置，確保功能一致性">Perform cross-platform testing across web and mobile devices to ensure consistent functionality</li>
+                            <li data-en="Execute API testing to verify data accuracy and response validation" data-zh="執行API測試以驗證資料準確性和回應驗證">Execute API testing to verify data accuracy and response validation</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="experience-content">
+                        <div class="company-header">
+                            <img src="images/systex_logo.png" alt="Systex Cooperation Logo" class="company-logo">
+                            <div class="company-info">
+                                <div class="job-header">
+                                    <h3 class="job-title" data-en="Cybersecurity Consultant" data-zh="資安顧問">Cybersecurity Consultant</h3>
+                                    <span class="date-range" data-en="February 2025 - June 2025" data-zh="2025年2月 - 2025年6月">February 2025 - June 2025</span>
+                                </div>
+                                <h4 class="company-name">Systex Cooperation <span class="employment-type" data-en="Intern" data-zh="實習">Intern</span></h4>
+                            </div>
+                        </div>
+                        <ul class="job-description">
+                            <li data-en="Facilitated requirements interviews between senior consultants and clients across banking, restaurant, and manufacturing industries" data-zh="促進資深顧問與銀行、餐廳和製造業客戶之間的需求訪談">Facilitated requirements interviews between senior consultants and clients across banking, restaurant, and manufacturing industries</li>
+                            <li data-en="Created cybersecurity assessment reports and system architecture diagrams using Microsoft Office tools and Visio" data-zh="使用Microsoft Office工具和Visio創建資安評估報告和系統架構圖">Created cybersecurity assessment reports and system architecture diagrams using Microsoft Office tools and Visio</li>
+                            <li data-en="Co-developed a Zero Trust security platform using Django and Python for enterprise clients" data-zh="使用Django和Python為企業客戶共同開發零信任安全平台">Co-developed a Zero Trust security platform using Django and Python for enterprise clients</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-en="Skills & Technologies" data-zh="技能與技術">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 data-en="Testing Skills" data-zh="測試技能">Testing Skills</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-bug"></i>
+                            <span data-en="API Test" data-zh="API測試">API Test</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-globe"></i>
+                            <span data-en="Web Test" data-zh="網頁測試">Web Test</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span data-en="Mobile Test" data-zh="行動測試">Mobile Test</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-clipboard-list"></i>
+                            <span data-en="Test Plan" data-zh="測試計畫">Test Plan</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 data-en="Testing Tools" data-zh="測試工具">Testing Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span data-en="Postman" data-zh="Postman">Postman</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-bug"></i>
+                            <span data-en="Selenium" data-zh="Selenium">Selenium</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cogs"></i>
+                            <span data-en="Jenkins" data-zh="Jenkins">Jenkins</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-tasks"></i>
+                            <span data-en="Jira" data-zh="Jira">Jira</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 data-en="Programming Languages" data-zh="程式語言">Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span data-en="Python" data-zh="Python">Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span data-en="Java" data-zh="Java">Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span data-en="JavaScript" data-zh="JavaScript">JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span data-en="MySQL" data-zh="MySQL">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title" data-en="Education" data-zh="教育">Education</h2>
+            <div class="education-content">
+                <div class="education-item">
+                    <div class="education-header">
+                        <img src="images/tku_logo.jpeg" alt="Tamkang University Logo" class="university-logo">
+                        <div class="education-info">
+                            <h3 class="degree-title" data-en="Bachelor's degree, Computer Science" data-zh="學士學位，資訊工程學系">Bachelor's degree, Computer Science</h3>
+                            <h4 class="university-name">Tamkang University</h4>
+                            <span class="date-range" data-en="Sep 2021 - Jul 2025" data-zh="2021年9月 - 2025年7月">Sep 2021 - Jul 2025</span>
+                            <span class="gpa" data-en="GPA: 3.876" data-zh="GPA: 3.876">GPA: 3.876</span>
+                            <span class="award" data-en="Tamkang University Academic Award 2025" data-zh="淡江大學學業優良獎 2025">Tamkang University Academic Award 2025</span>
+                        </div>
+                    </div>
+                    <div class="education-activities">
+                        <h5 data-en="Activities & Societies:" data-zh="活動與社團：">Activities & Societies:</h5>
+                        <ul>
+                            <li data-en="Curriculum Planner in Tamkang University Start Up Club 2025" data-zh="淡江大學創業社課程規劃師 2025">Curriculum Planner in Tamkang University Start Up Club 2025</li>
+                            <li data-en="Core Member in Tamkang University Google Developer Student Club (GDSC) 2022" data-zh="淡江大學Google開發者學生俱樂部核心成員 2022">Core Member in Tamkang University Google Developer Student Club (GDSC) 2022</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-en="Featured Projects" data-zh="精選專案">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-en="Zero-Trust Questionnaire System" data-zh="零信任問卷系統">Zero-Trust Questionnaire System</h3>
+                        <ul class="project-bullets">
+                            <li data-en="Developed online zero-trust questionnaire system during internship at Systex Corporation" data-zh="在精誠資訊實習期間開發線上零信任問卷系統">Developed online zero-trust questionnaire system during internship at Systex Corporation</li>
+                            <li data-en="Collaborated with local team to improve cybersecurity consultant efficiency" data-zh="與在地團隊合作提升資安顧問效率">Collaborated with local team to improve cybersecurity consultant efficiency</li>
+                            <li data-en="Built using Django and Python for enterprise zero-trust assessments" data-zh="使用Django和Python為企業零信任評估而建構">Built using Django and Python for enterprise zero-trust assessments</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Django</span>
+                            <span>Python</span>
+                            <span>Zero-Trust</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7342989464899592192/?originalSubdomain=cn" class="project-link" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn Post</a>
+                            <a href="https://www.youtube.com/watch?v=445bFDcH-kY" class="project-link" target="_blank"><i class="fab fa-youtube"></i> Demo Video</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-cloud-sun"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-en="Weather Forecast Android APP" data-zh="天氣預報Android應用程式">Weather Forecast Android APP</h3>
+                        <ul class="project-bullets">
+                            <li data-en="Developed Android weather app during exchange program at Temple University (USA)" data-zh="在美國天普大學交換期間開發Android天氣應用程式">Developed Android weather app during exchange program at Temple University (USA)</li>
+                            <li data-en="Collaborated with local students to create real-time weather reporting system" data-zh="與在地學生合作創建即時天氣回報系統">Collaborated with local students to create real-time weather reporting system</li>
+                            <li data-en="Built using Kotlin and Android Studio for mobile weather forecasting" data-zh="使用Kotlin和Android Studio為行動天氣預報而建構">Built using Kotlin and Android Studio for mobile weather forecasting</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Kotlin</span>
+                            <span>Android</span>
+                            <span>Google Maps API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/TULocalSky/localsky" class="project-link" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-en="The Simon Game Web Application" data-zh="西蒙遊戲網頁應用程式">The Simon Game Web Application</h3>
+                        <ul class="project-bullets">
+                            <li data-en="Developed interactive memory game web app using 3-tier architecture" data-zh="使用三層架構開發互動式記憶遊戲網頁應用程式">Developed interactive memory game web app using 3-tier architecture</li>
+                            <li data-en="Built with HTML/CSS/JS frontend, PHP backend, and MySQL database" data-zh="使用HTML/CSS/JS前端、PHP後端和MySQL資料庫建構">Built with HTML/CSS/JS frontend, PHP backend, and MySQL database</li>
+                            <li data-en="Implemented sequence memory game with top 5 leaderboard system" data-zh="實作序列記憶遊戲與前五名排行榜系統">Implemented sequence memory game with top 5 leaderboard system</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>HTML/CSS/JS</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/asonyue/OpenSource_Final" class="project-link" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-en="Get In Touch" data-zh="聯絡我">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 data-en="Let's work together!" data-zh="讓我們一起合作！">Let's work together!</h3>
+                    <p data-en="I'm always interested in hearing about new opportunities and exciting projects. Whether you have a question or just want to say hi, feel free to reach out!" data-zh="我總是對新的機會和令人興奮的專案感興趣。無論您有問題或只是想打個招呼，請隨時與我聯繫！">I'm always interested in hearing about new opportunities and exciting projects. Whether you have a question or just want to say hi, feel free to reach out!</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>ason06057@gmail.com</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <span>0929031542</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Taipei, Taiwan</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/asonyue" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/chun-hei-yue-486991200/" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/asonchyue/" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Ason Yue. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
