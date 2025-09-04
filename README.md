@@ -2,6 +2,8 @@
 
 A modern, responsive personal website built with HTML, CSS, and JavaScript. Features a clean design, smooth animations, and mobile-first responsive layout.
 
+cool
+
 ## 🚀 Features
 
 - **Responsive Design**: Works perfectly on all devices (desktop, tablet, mobile)
