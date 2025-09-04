@@ -59,6 +59,61 @@ const translations = {
         'Activities & Societies:': 'Activities & Societies:',
         'Curriculum Planner in Tamkang University Start Up Club 2025': 'Curriculum Planner in Tamkang University Start Up Club 2025',
         'Core Member in Tamkang University Google Developer Student Club (GDSC) 2022': 'Core Member in Tamkang University Google Developer Student Club (GDSC) 2022',
+        'Exchange Program, Computer Science': 'Exchange Program, Computer Science',
+        'Aug 2023 - May 2024': 'Aug 2023 - May 2024',
+        'Excellent Recommendation Letter from Student Success Center': 'Excellent Recommendation Letter from Student Success Center',
+        'Work Experience:': 'Work Experience:',
+        'Language Tutor, Writing Tutor & Student Ambassador - Excelled in 3 roles simultaneously': 'Language Tutor, Writing Tutor & Student Ambassador - Excelled in 3 roles simultaneously',
+        'Projects:': 'Projects:',
+        'Weather Forecast Android APP - Developed during exchange program using Kotlin and Android Studio': 'Weather Forecast Android APP - Developed during exchange program using Kotlin and Android Studio',
+
+        // Rewards & Certifications
+        'Rewards & Certifications': 'Rewards & Certifications',
+        'Tamkang University Academic Award': 'Tamkang University Academic Award',
+        'Outstanding academic performance with highest grade average GPA 3.876': 'Outstanding academic performance with highest grade average GPA 3.876',
+        'Recognition for consistent excellence throughout university career': 'Recognition for consistent excellence throughout university career',
+        'Completion of International Policy': 'Completion of International Policy',
+        'Mandatory study abroad program completion': 'Mandatory study abroad program completion',
+        'Full English-taught curriculum requirement': 'Full English-taught curriculum requirement',
+        'On-campus residence hall accommodation': 'On-campus residence hall accommodation',
+        'Graduation Certification': 'Graduation Certification',
+        'Bachelor\'s degree in Computer Science completed': 'Bachelor\'s degree in Computer Science completed',
+        'Official university graduation recognition': 'Official university graduation recognition',
+        'Startup Club Certification': 'Startup Club Certification',
+        'Curriculum Planner in Tamkang University Start Up Club': 'Curriculum Planner in Tamkang University Start Up Club',
+        'Leadership role in entrepreneurship and innovation activities': 'Leadership role in entrepreneurship and innovation activities',
+        'Organized startup workshops and mentoring programs': 'Organized startup workshops and mentoring programs',
+        'Google Developer Student Club Certification': 'Google Developer Student Club Certification',
+        'Core Member in Tamkang University Google Developer Student Club (GDSC)': 'Core Member in Tamkang University Google Developer Student Club (GDSC)',
+        'Organized tech workshops and coding events': 'Organized tech workshops and coding events',
+        'Mentored fellow students in Google technologies': 'Mentored fellow students in Google technologies',
+        'Systex Corporation Internship Certification': 'Systex Corporation Internship Certification',
+        'Cybersecurity Consultant Intern at Systex Corporation': 'Cybersecurity Consultant Intern at Systex Corporation',
+        'Co-developed Zero Trust security platform using Django and Python': 'Co-developed Zero Trust security platform using Django and Python',
+        'Created cybersecurity assessment reports and system architecture diagrams': 'Created cybersecurity assessment reports and system architecture diagrams',
+        'Temple University Student Success Center Recommendation': 'Temple University Student Success Center Recommendation',
+        'Excellent recommendation letter from Temple University Student Success Center': 'Excellent recommendation letter from Temple University Student Success Center',
+        'Recognized for outstanding work performance and dedication': 'Recognized for outstanding work performance and dedication',
+        'Demonstrated exceptional leadership and teamwork skills': 'Demonstrated exceptional leadership and teamwork skills',
+        'Temple University Exchange Program Completion': 'Temple University Exchange Program Completion',
+        'Successfully completed exchange program at Temple University': 'Successfully completed exchange program at Temple University',
+        'Computer Science exchange program from Aug 2023 to May 2024': 'Computer Science exchange program from Aug 2023 to May 2024',
+        'International academic and cultural experience': 'International academic and cultural experience',
+        'Google Cloud Certification': 'Google Cloud Certification',
+        'Google Digital Talent Taiwan certification program': 'Google Digital Talent Taiwan certification program',
+        'Cloud computing and infrastructure management skills': 'Cloud computing and infrastructure management skills',
+        'Professional cloud platform expertise': 'Professional cloud platform expertise',
+        'Google Digital Marketing Certification': 'Google Digital Marketing Certification',
+        'Digital marketing strategies and analytics': 'Digital marketing strategies and analytics',
+        'Online advertising and campaign management': 'Online advertising and campaign management',
+        'AWS Workshop Certificate': 'AWS Workshop Certificate',
+        'Amazon Web Services workshop completion': 'Amazon Web Services workshop completion',
+        'Cloud computing and AWS platform training': 'Cloud computing and AWS platform training',
+        'Hands-on experience with AWS services': 'Hands-on experience with AWS services',
+        'NVIDIA Workshop Certificate': 'NVIDIA Workshop Certificate',
+        'NVIDIA workshop completion': 'NVIDIA workshop completion',
+        'GPU computing and AI/ML training': 'GPU computing and AI/ML training',
+        'Advanced graphics and parallel processing': 'Advanced graphics and parallel processing',
 
         // Project 1: Zero-Trust Questionnaire System
         'Zero-Trust Questionnaire System': 'Zero-Trust Questionnaire System',
@@ -84,6 +139,7 @@ const translations = {
         'Experience': '工作經驗',
         'Skills': '技能',
         'Education': '教育',
+        'Rewards & Certifications': '獎項與證照',
         'Projects': '專案',
         'Contact': '聯絡',
         
@@ -100,6 +156,7 @@ const translations = {
         'Featured Projects': '精選專案',
         'Get In Touch': '聯絡我',
         'Education': '教育',
+        'Rewards & Certifications': '獎項與證照',
         
         // Experience
         'Quality Assurance Engineer': '品質保證工程師',
@@ -128,13 +185,68 @@ const translations = {
         'All rights reserved.': '版權所有。',
 
         // Education
-        'Bachelor\'s degree, Computer Science': '學士學位，計算機科學',
+        'Bachelor\'s degree, Computer Science': '學士學位，資訊工程學系',
         'Sep 2021 - Jul 2025': '2021年9月 - 2025年7月',
         'GPA: 3.876': 'GPA：3.876',
         'Tamkang University Academic Award 2025': '淡江大學學術獎 2025',
         'Activities & Societies:': '活動與社團：',
         'Curriculum Planner in Tamkang University Start Up Club 2025': '淡江大學創業社課程規劃者 2025',
         'Core Member in Tamkang University Google Developer Student Club (GDSC) 2022': '淡江大學Google開發者學生俱樂部核心成員 2022',
+        'Exchange Program, Computer Science': '交換計畫，資訊工程學系',
+        'Aug 2023 - May 2024': '2023年8月 - 2024年5月',
+        'Excellent Recommendation Letter from Student Success Center': '學生成功中心優秀推薦信',
+        'Work Experience:': '工作經驗：',
+        'Language Tutor, Writing Tutor & Student Ambassador - Excelled in 3 roles simultaneously': '語言導師、寫作導師和學生大使 - 同時在3個角色中表現卓越',
+        'Projects:': '專案：',
+        'Weather Forecast Android APP - Developed during exchange program using Kotlin and Android Studio': '天氣預報Android應用程式 - 在交換期間使用Kotlin和Android Studio開發',
+
+        // Rewards & Certifications
+        'Rewards & Certifications': '獎項與證照',
+        'Tamkang University Academic Award': '淡江大學學業優良獎',
+        'Outstanding academic performance with highest grade average GPA 3.876': '優異學業表現，最高成績平均GPA 3.876',
+        'Recognition for consistent excellence throughout university career': '表彰大學期間持續的卓越表現',
+        'Completion of International Policy': '國際政策完成證書',
+        'Mandatory study abroad program completion': '必修海外留學課程完成',
+        'Full English-taught curriculum requirement': '全英文授課課程要求',
+        'On-campus residence hall accommodation': '校園宿舍住宿要求',
+        'Graduation Certification': '畢業證書',
+        'Bachelor\'s degree in Computer Science completed': '完成資訊工程學士學位',
+        'Official university graduation recognition': '正式大學畢業認證',
+        'Startup Club Certification': '創業社認證',
+        'Curriculum Planner in Tamkang University Start Up Club': '淡江大學創業社課程規劃師',
+        'Leadership role in entrepreneurship and innovation activities': '在創業與創新活動中的領導角色',
+        'Organized startup workshops and mentoring programs': '組織創業工作坊和指導計畫',
+        'Google Developer Student Club Certification': 'Google開發者學生俱樂部認證',
+        'Core Member in Tamkang University Google Developer Student Club (GDSC)': '淡江大學Google開發者學生俱樂部核心成員',
+        'Organized tech workshops and coding events': '組織技術工作坊和程式設計活動',
+        'Mentored fellow students in Google technologies': '指導同學學習Google技術',
+        'Systex Corporation Internship Certification': '精誠資訊實習認證',
+        'Cybersecurity Consultant Intern at Systex Corporation': '精誠資訊資安顧問實習生',
+        'Co-developed Zero Trust security platform using Django and Python': '使用Django和Python共同開發零信任安全平台',
+        'Created cybersecurity assessment reports and system architecture diagrams': '創建資安評估報告和系統架構圖',
+        'Temple University Student Success Center Recommendation': '天普大學學生成功中心推薦信',
+        'Excellent recommendation letter from Temple University Student Success Center': '天普大學學生成功中心優秀推薦信',
+        'Recognized for outstanding work performance and dedication': '因傑出的工作表現和奉獻精神而獲得認可',
+        'Demonstrated exceptional leadership and teamwork skills': '展現卓越的領導力和團隊合作技能',
+        'Temple University Exchange Program Completion': '天普大學交換計畫完成證書',
+        'Successfully completed exchange program at Temple University': '成功完成天普大學交換計畫',
+        'Computer Science exchange program from Aug 2023 to May 2024': '資訊工程學系交換計畫，2023年8月至2024年5月',
+        'International academic and cultural experience': '國際學術和文化體驗',
+        'Google Cloud Certification': 'Google雲端認證',
+        'Google Digital Talent Taiwan certification program': 'Google數位人才台灣認證計畫',
+        'Cloud computing and infrastructure management skills': '雲端運算和基礎設施管理技能',
+        'Professional cloud platform expertise': '專業雲端平台專業知識',
+        'Google Digital Marketing Certification': 'Google數位行銷認證',
+        'Digital marketing strategies and analytics': '數位行銷策略和分析',
+        'Online advertising and campaign management': '線上廣告和活動管理',
+        'AWS Workshop Certificate': 'AWS工作坊證書',
+        'Amazon Web Services workshop completion': 'Amazon Web Services工作坊完成',
+        'Cloud computing and AWS platform training': '雲端運算和AWS平台培訓',
+        'Hands-on experience with AWS services': 'AWS服務實務經驗',
+        'NVIDIA Workshop Certificate': 'NVIDIA工作坊證書',
+        'NVIDIA workshop completion': 'NVIDIA工作坊完成',
+        'GPU computing and AI/ML training': 'GPU運算和AI/ML培訓',
+        'Advanced graphics and parallel processing': '進階圖形和並行處理',
 
         // Project 1: Zero-Trust Questionnaire System
         'Zero-Trust Questionnaire System': '零信任問卷系統',
@@ -158,12 +270,14 @@ const translations = {
 
 function switchLanguage(lang) {
     currentLanguage = lang;
+    console.log('Switching to language:', lang);
     
     // Update navigation links
     document.querySelectorAll('.nav-link').forEach(link => {
         const key = link.getAttribute('data-en');
         if (key && translations[lang][key]) {
             link.textContent = translations[lang][key];
+            console.log('Updated nav link:', key, 'to:', translations[lang][key]);
         }
     });
     
@@ -172,6 +286,7 @@ function switchLanguage(lang) {
         const key = element.getAttribute('data-en');
         if (translations[lang][key]) {
             element.textContent = translations[lang][key];
+            console.log('Updated element:', key, 'to:', translations[lang][key]);
         }
     });
     
@@ -188,15 +303,20 @@ function switchLanguage(lang) {
 document.addEventListener('DOMContentLoaded', function() {
     const langToggle = document.getElementById('langToggle');
     
-    // Load saved language preference
-    const savedLang = localStorage.getItem('preferredLanguage') || 'en';
-    if (savedLang === 'zh') {
-        switchLanguage('zh');
-    }
+    // Clear any saved language preference to force English
+    localStorage.removeItem('preferredLanguage');
+    
+    // Force English mode with a small delay to ensure page is loaded
+    setTimeout(() => {
+        currentLanguage = 'en';
+        console.log('Initializing in English mode');
+        switchLanguage('en');
+    }, 100);
     
     // Add click event
     langToggle.addEventListener('click', function() {
         const newLang = currentLanguage === 'en' ? 'zh' : 'en';
+        console.log('Button clicked, switching from', currentLanguage, 'to', newLang);
         switchLanguage(newLang);
     });
 });
@@ -343,7 +463,7 @@ const observer = new IntersectionObserver((entries) => {
 
 // Observe elements for animation
 document.addEventListener('DOMContentLoaded', () => {
-    const animatedElements = document.querySelectorAll('.about-content, .skills-grid, .projects-grid, .contact-content');
+    const animatedElements = document.querySelectorAll('.about-content, .skills-grid, .projects-grid, .contact-content, .rewards-content');
     
     animatedElements.forEach(el => {
         el.style.opacity = '0';
@@ -450,6 +570,46 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+});
+
+
+
+
+// Simple Rewards Navigation
+document.addEventListener('DOMContentLoaded', () => {
+    const track = document.querySelector('.rewards-track');
+    const prevBtn = document.querySelector('.prev-btn');
+    const nextBtn = document.querySelector('.next-btn');
+    
+    if (!track || !prevBtn || !nextBtn) return;
+    
+    let currentIndex = 0;
+    const cardWidth = 420; // Card width + gap
+    const totalCards = 12;
+    const visibleCards = 3;
+    const maxIndex = totalCards - visibleCards; // 12 - 3 = 9
+    
+    function updatePosition() {
+        track.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+        prevBtn.disabled = currentIndex === 0;
+        nextBtn.disabled = currentIndex >= maxIndex;
+    }
+    
+    prevBtn.addEventListener('click', () => {
+        if (currentIndex > 0) {
+            currentIndex--;
+            updatePosition();
+        }
+    });
+    
+    nextBtn.addEventListener('click', () => {
+        if (currentIndex < maxIndex) {
+            currentIndex++;
+            updatePosition();
+        }
+    });
+    
+    updatePosition();
 });
 
 // Test if JavaScript is working

@@ -890,6 +890,7 @@ body {
     .hero-buttons {
         justify-content: center;
     }
+
 }
 
 @media (max-width: 480px) {
@@ -922,7 +923,8 @@ body {
 .about-content,
 .skills-grid,
 .projects-grid,
-.contact-content {
+.contact-content,
+.rewards-content {
     animation: fadeInUp 0.8s ease-out;
 }
 
@@ -932,6 +934,198 @@ body {
         scroll-behavior: smooth;
     }
 }
+
+
+/* Rewards & Certifications Section */
+.rewards {
+    padding: 5rem 0;
+    background: white;
+}
+
+.rewards-container {
+    position: relative;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.rewards-slider {
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.rewards-track {
+    display: flex;
+    gap: 2rem;
+    transition: transform 0.3s ease;
+    padding: 2rem 0;
+    padding-right: 90%; /* Add extra space on the right for last card visibility */
+}
+
+.prev-btn, .next-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #2563eb;
+    color: white;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+.prev-btn:hover, .next-btn:hover {
+    background: #1d4ed8;
+    transform: scale(1.1);
+}
+
+.prev-btn:disabled, .next-btn:disabled {
+    background: #9ca3af;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.reward-card {
+    flex: 0 0 400px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e7eb;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.reward-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #2563eb, #fbbf24);
+}
+
+.reward-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.reward-image-container {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 12px 12px 0 0;
+}
+
+.reward-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.temple-image {
+    object-position: top;
+}
+
+.reward-content {
+    padding: 1.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.reward-card .reward-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.reward-card.academic .reward-icon {
+    background: linear-gradient(135deg, #fbbf24, #f59e0b);
+}
+
+.reward-card.professional .reward-icon {
+    background: linear-gradient(135deg, #10b981, #059669);
+}
+
+.reward-card.project .reward-icon {
+    background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+}
+
+.reward-card.international .reward-icon {
+    background: linear-gradient(135deg, #ef4444, #dc2626);
+}
+
+.reward-card .reward-info h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
+.reward-bullets {
+    color: #6b7280;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    flex: 1;
+    padding-left: 1.2rem;
+    list-style: none;
+}
+
+.reward-bullets li {
+    position: relative;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
+.reward-bullets li:before {
+    content: '•';
+    position: absolute;
+    left: -1rem;
+    color: #2563eb;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.reward-bullets li:last-child {
+    margin-bottom: 0;
+}
+
+.reward-card .reward-date {
+    display: inline-block;
+    background: #e0f2fe;
+    color: #0369a1;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: auto;
+}
+
+
 
 /* Education Section */
 .education {
