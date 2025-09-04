@@ -575,42 +575,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-// Simple Rewards Navigation
-document.addEventListener('DOMContentLoaded', () => {
-    const track = document.querySelector('.rewards-track');
-    const prevBtn = document.querySelector('.prev-btn');
-    const nextBtn = document.querySelector('.next-btn');
-    
-    if (!track || !prevBtn || !nextBtn) return;
-    
-    let currentIndex = 0;
-    const cardWidth = 420; // Card width + gap
-    const totalCards = 12;
-    const visibleCards = 3;
-    const maxIndex = totalCards - visibleCards; // 12 - 3 = 9
-    
-    function updatePosition() {
-        track.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
-        prevBtn.disabled = currentIndex === 0;
-        nextBtn.disabled = currentIndex >= maxIndex;
-    }
-    
-    prevBtn.addEventListener('click', () => {
-        if (currentIndex > 0) {
-            currentIndex--;
-            updatePosition();
-        }
-    });
-    
-    nextBtn.addEventListener('click', () => {
-        if (currentIndex < maxIndex) {
-            currentIndex++;
-            updatePosition();
-        }
-    });
-    
-    updatePosition();
-});
 
 // Test if JavaScript is working
 console.log('End of script.js reached');

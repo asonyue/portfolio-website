@@ -942,62 +942,17 @@ body {
     background: white;
 }
 
-.rewards-container {
-    position: relative;
-    max-width: 1600px;
+.rewards-content {
+    max-width: 1200px;
     margin: 0 auto;
-}
-
-.rewards-slider {
-    overflow: hidden;
-    margin-bottom: 2rem;
-}
-
-.nav-buttons {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
-    margin-top: 1rem;
+    justify-items: center;
 }
 
-.rewards-track {
-    display: flex;
-    gap: 2rem;
-    transition: transform 0.3s ease;
-    padding: 2rem 0;
-    padding-right: 90%; /* Add extra space on the right for last card visibility */
-}
-
-.prev-btn, .next-btn {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: #2563eb;
-    color: white;
-    border: none;
-    font-size: 24px;
-    font-weight: bold;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
-}
-
-.prev-btn:hover, .next-btn:hover {
-    background: #1d4ed8;
-    transform: scale(1.1);
-}
-
-.prev-btn:disabled, .next-btn:disabled {
-    background: #9ca3af;
-    cursor: not-allowed;
-    transform: none;
-}
 
 .reward-card {
-    flex: 0 0 400px;
     background: white;
     border-radius: 16px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
@@ -1007,6 +962,8 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    max-width: 400px;
+    width: 100%;
 }
 
 .reward-card::before {
