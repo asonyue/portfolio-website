@@ -32,6 +32,9 @@ const translations = {
         'Intern': 'Intern',
         'August 2025 - Present': 'August 2025 - Present',
         'February 2025 - June 2025': 'February 2025 - June 2025',
+        'Company:': 'Company:',
+        'Duration:': 'Duration:',
+        'Type:': 'Type:',
         'Conduct comprehensive regression testing to validate newly implemented product features': 'Conduct comprehensive regression testing to validate newly implemented product features',
         'Perform cross-platform testing across web and mobile devices to ensure consistent functionality': 'Perform cross-platform testing across web and mobile devices to ensure consistent functionality',
         'Execute API testing to verify data accuracy and response validation': 'Execute API testing to verify data accuracy and response validation',
@@ -165,6 +168,11 @@ const translations = {
         'Intern': '實習',
         'August 2025 - Present': '2025年8月 - 至今',
         'February 2025 - June 2025': '2025年2月 - 2025年6月',
+        'Company:': '公司：',
+        'Duration:': '期間：',
+        'Type:': '類型：',
+        'Show More Rewards': '顯示更多獎項',
+        'Show Less Rewards': '顯示較少獎項',
         'Conduct comprehensive regression testing to validate newly implemented product features': '執行全面回歸測試以驗證新實施的產品功能',
         'Perform cross-platform testing across web and mobile devices to ensure consistent functionality': '跨平台測試網頁和行動裝置的一致性',
         'Execute API testing to verify data accuracy and response validation': '執行API測試以驗證資料準確性和回應驗證',
@@ -575,6 +583,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+
+// Mobile Rewards Toggle Functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const showMoreBtn = document.getElementById('showMoreRewards');
+    const rewardsContent = document.querySelector('.rewards-content');
+    
+    if (showMoreBtn && rewardsContent) {
+        showMoreBtn.addEventListener('click', function() {
+            // Expand - show all rewards
+            rewardsContent.classList.add('expanded');
+            
+            // Hide the button completely
+            showMoreBtn.style.display = 'none';
+        });
+    }
+});
 
 // Test if JavaScript is working
 console.log('End of script.js reached');
