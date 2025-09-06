@@ -35,6 +35,8 @@ const translations = {
         'Company:': 'Company:',
         'Duration:': 'Duration:',
         'Type:': 'Type:',
+        'Show More Rewards': 'Show More Rewards',
+        'Show Less Rewards': 'Show Less Rewards',
         'Conduct comprehensive regression testing to validate newly implemented product features': 'Conduct comprehensive regression testing to validate newly implemented product features',
         'Perform cross-platform testing across web and mobile devices to ensure consistent functionality': 'Perform cross-platform testing across web and mobile devices to ensure consistent functionality',
         'Execute API testing to verify data accuracy and response validation': 'Execute API testing to verify data accuracy and response validation',
@@ -50,6 +52,7 @@ const translations = {
         // Contact
         'Let\'s work together!': 'Let\'s work together!',
         'I\'m always interested in hearing about new opportunities and exciting projects. Whether you have a question or just want to say hi, feel free to reach out!': 'I\'m always interested in hearing about new opportunities and exciting projects. Whether you have a question or just want to say hi, feel free to reach out!',
+        'Taipei, Taiwan': 'Taipei, Taiwan',
         
         // Footer
         'All rights reserved.': 'All rights reserved.',
@@ -188,6 +191,7 @@ const translations = {
         // Contact
         'Let\'s work together!': '讓我們一起合作！',
         'I\'m always interested in hearing about new opportunities and exciting projects. Whether you have a question or just want to say hi, feel free to reach out!': '我總是對新的機會和令人興奮的專案感興趣。無論您有問題或只是想打個招呼，請隨時與我聯繫！',
+        'Taipei, Taiwan': '台北',
         
         // Footer
         'All rights reserved.': '版權所有。',
@@ -302,6 +306,13 @@ function switchLanguage(lang) {
     const langToggle = document.getElementById('langToggle');
     const langText = langToggle.querySelector('.lang-text');
     langText.textContent = lang === 'en' ? '中文' : 'English';
+    
+    // Update rewards button text if it exists and is visible
+    const showMoreBtn = document.getElementById('showMoreRewards');
+    const btnText = showMoreBtn?.querySelector('.btn-text');
+    if (btnText && showMoreBtn.style.display !== 'none') {
+        btnText.textContent = translations[lang]['Show More Rewards'];
+    }
     
     // Store language preference
     localStorage.setItem('preferredLanguage', lang);
@@ -584,17 +595,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-// Mobile Rewards Toggle Functionality
+// Rewards Toggle Functionality (Desktop & Mobile)
 document.addEventListener('DOMContentLoaded', function() {
     const showMoreBtn = document.getElementById('showMoreRewards');
     const rewardsContent = document.querySelector('.rewards-content');
+    const btnText = showMoreBtn?.querySelector('.btn-text');
+    const btnIcon = showMoreBtn?.querySelector('i');
     
-    if (showMoreBtn && rewardsContent) {
+    if (showMoreBtn && rewardsContent && btnText && btnIcon) {
         showMoreBtn.addEventListener('click', function() {
             // Expand - show all rewards
             rewardsContent.classList.add('expanded');
             
-            // Hide the button completely
+            // Hide the button completely after expanding
             showMoreBtn.style.display = 'none';
         });
     }

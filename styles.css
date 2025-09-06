@@ -902,13 +902,13 @@ body {
         justify-content: center;
     }
 
-    /* Mobile Rewards - Show only first 3 */
+    /* Mobile Rewards - Show only first 3, override desktop rule */
     .rewards-content .reward-card:nth-child(n+4) {
-        display: none;
+        display: none !important;
     }
 
     .rewards-content.expanded .reward-card:nth-child(n+4) {
-        display: block;
+        display: block !important;
     }
 
 }
@@ -969,6 +969,16 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
     justify-items: center;
+}
+
+/* Desktop - Show only first 6 awards */
+.rewards-content .reward-card:nth-child(n+7) {
+    display: none;
+}
+
+/* Desktop - Show all awards when expanded */
+.rewards-content.expanded .reward-card:nth-child(n+7) {
+    display: block;
 }
 
 /* Mobile Show More/Less Button */
